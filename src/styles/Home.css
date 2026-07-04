@@ -1,0 +1,56 @@
+/* Style rules for Home and Hero components of Conard's Woodworks */
+.hero {
+  background-color: #260101;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  color: #f7efe7;
+}
+
+.hero-tagline {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 650;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.hero-subtext {
+  font-size: 1.345rem;
+  color: #f7efe7;
+  margin-top: 5px;
+  padding-top: 8px;
+  font-weight: lighter;
+}
+
+.hero-cta-group {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.cta-primary {
+  color: #f7e7e7;
+  background-color: rgba(95, 114, 93, 1);
+  font-family: "Cormorant Garamond", serif;
+  padding: 10px;
+  border: 1px solid #260101;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.cta-secondary {
+  border: 1px solid #f7e7e7;
+  color: #f7e7e7;
+  font-family: "Cormorant Garamond", serif;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 20px;
+}

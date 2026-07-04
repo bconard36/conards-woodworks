@@ -1,0 +1,47 @@
+/* Style rules for NotFound/Catch All component of Conard's Woodworks */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  padding: 32px 20px;
+  text-align: center;
+  color: #260101;
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid #DECDB9;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(38, 1, 1, 0.08);
+  margin: 24px auto;
+  width: min(90%, 640px);
+  box-sizing: border-box;
+}
+
+.not-found-title {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  margin: 0 0 12px;
+  color: #401201;
+}
+
+.not-found-text {
+  font-size: clamp(1.1rem, 2.2vw, 1.45rem);
+  line-height: 1.6;
+  margin: 0 0 20px;
+  max-width: 520px;
+}
+
+.not-found-link {
+  display: inline-block;
+  font-size: clamp(1rem, 1.7vw, 1.2rem);
+  font-weight: 600;
+  color: #401201;
+  text-decoration: none;
+  border-bottom: 2px solid #401201;
+  padding-bottom: 2px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.not-found-link:hover {
+  color: #7A2E0D;
+  border-color: #7A2E0D;
+}

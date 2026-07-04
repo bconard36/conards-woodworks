@@ -1,0 +1,25 @@
+/* Global Style Rules for Conard's Woodoworks */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+#root,
+.content {
+  background: #F5EEE8;
+  font-family: "Cormorant Garamond", serif;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.content {
+  min-height: auto;
+}
+
+.section-header {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}

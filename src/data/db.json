@@ -1,0 +1,150 @@
+{
+    "products": [
+        {
+            "image": "/assets/constructed_stained_box.jpg",
+            "name": "Stained Elevated Planter Box",
+            "description": "Raised planter box with a stained finish, perfect for your garden, patio, or deck. This elevated design makes gardening accessible and stylish, coming with wheels installed for easy mobility. Different stains and finishes available.",
+            "id": "1"
+        },
+        {
+            "image": "/assets/display_product.jpg",
+            "name": "Gallon Size Planter Box",
+            "description": "A large capacity planter box designed for larger, oversized plants. Ideal for those who want to grow bigger plants or a variety of plants in one container. Different stains and finishes available.",
+            "id": "2"
+        },
+        {
+            "image": "/assets/end_table.jpg",
+            "name": "Walnut Oak End Table",
+            "description": "A beautiful walnut oak end table, perfect for your bedroom or living room. This piece is crafted with care and attention to detail, showcasing the natural beauty of the wood. Check out our gallery more detailed images of this piece! Different stains and finishes available.",
+            "id": "3"
+        },
+        {
+            "image": "/assets/walnut_oak_wall_shelf_02.jpeg",
+            "name": "Walnut Oak Wall Shelf",
+            "description": "A stylish, durable wall-shelf crafted from walnut oak. This shelf is designed to hold your favorite items while adding a touch of rustic elegance to your space. Find more pictures in the gallery! Different stains and finishes available.",
+            "id": "4"
+        }
+    ],
+
+    "gallery": [
+        {
+            "category": "Prep",
+            "image": "/assets/deconstructed_pallets_2.jpg",
+            "name": "Deconstructed Pallets",
+            "description": "Upon receiving the pallets, I deconstruct them into usable pieces of wood. This process involves dismantling the pallets, removing nails, and preparing wood for future projects.",
+            "id": "5"
+        },
+        {
+            "category": "Prep",
+            "image": "/assets/deconstructed_pallets.jpg",
+            "name": "More Deconstructed Pallets",
+            "description": "After preparing the wood, pieces are sorted and organized for future use.",
+            "id": "6"
+        },
+        {
+            "category": "Setup",
+            "image": "/assets/build_process.jpg",
+            "name": "Build Process",
+            "description": "A snapshot of my setup and workspace. Nothing better than sunshine and fresh air while working on a project!",
+            "id": "7"
+        },
+        {
+            "category": "Setup",
+            "image": "/assets/cleanup.jpg",
+            "name": "Work Station and Vacuum Cleanup",
+            "description": "Keeping sawdust clear of the workspace is much easier with this companion.",
+            "id": "8"
+        },
+        {
+            "category": "Assembly",
+            "image": "/assets/screw_joints.jpg",
+            "name": "Planter Box Joints",
+            "description": "Screws are used to join the pieces of wood together at multiple points, ensuring a strong and durable constuction.",
+            "id": "9"
+        },
+        {
+            "category": "Assembly",
+            "image": "/assets/assembly_in_progress.jpeg",
+            "name": "Assembly in Progress",
+            "description": "Once the pieces are secured with screws, the assembly process continues with wood glue and liquid nails being applied for added support.",
+            "id": "10"
+        },
+        {
+            "category": "Assembly",
+            "image": "/assets/planter_boxes_in_progress.jpeg",
+            "name": "Secured and Stable",
+            "description": "After the clamps come off, the planter box is secure and stable.",
+            "id": "11"
+        },
+        {
+            "category": "Garden",
+            "image": "/assets/constructed_plain_box_2.jpg",
+            "name": "Completed Unstained Elevated Planter",
+            "description": "A simple, functional planter box made from reclaimed wood.",
+            "id": "12"
+        },
+        {
+            "category": "Garden",
+            "image": "/assets/constructed_plain_box.jpg",
+            "name": "Completed Unstained Elevated Planter (Inner)",
+            "description": "A different view of the completed planter box, before the inner liner is attached.",
+            "id": "13"
+        },
+        {
+            "category": "Garden",
+            "image": "/assets/inner_liner.jpg",
+            "name": "Inner Box Liner",
+            "description": "I use a lightweight, durable liner to protect the wood from water damage and to allow for proper drainage.",
+            "id": "14"
+        },
+        {
+            "category": "Garden",
+            "image": "/assets/planter_box_detail_01.jpeg",
+            "name": "Finished Product Detail",
+            "description": "After the liner is applied, the planter box is ready for use!",
+            "id": "15"
+        },
+        {
+            "category": "Furniture",
+            "image": "/assets/walnut_oak_end_table_02.jpeg",
+            "name": "Walnut and Oak End Table (Inner Joint View)",
+            "description": "The inner joint of a custom built end table, showcasing the craftsmanship.",
+            "id": "16"
+        },
+        {
+            "category": "Furniture",
+            "image": "/assets/walnut_oak_end_table_01.jpeg",
+            "name": "Walnut and Oak End Table (Inner Joint View - Detail)",
+            "description": "A closer view of an inner joint on a custom built end table.",
+            "id": "17"
+        },
+        {
+            "category": "Furniture",
+            "image": "/assets/walnut_oak_end_table_03.jpeg",
+            "name": "Walnut and Oak End Table (Underside)",
+            "description": "The underside of a custom built end table.",
+            "id": "18"
+        },
+        {
+            "category": "Furniture",
+            "image": "/assets/walnut_oak_wall_shelf_01.jpeg",
+            "name": "Walnut and Oak Wall Shelf",
+            "description": "A custom built wall shelf, made from walnut and oak.",
+            "id": "19"
+        },
+        {
+            "category": "Furniture",
+            "image": "/assets/walnut_oak_wall_shelf_03.jpeg",
+            "name": "Walnut and Oak Wall Shelves",
+            "description": "Top view of custom made wall shelves.",
+            "id": "20" 
+        },
+        {
+            "category": "Furniture",
+            "image": "/assets/walnut_oak_wall_shelf_w_trim_3.jpeg",
+            "name": "Walnut and Oak Wall Shelf - Attached",
+            "description": "Wall shelf secured to the wall.",
+            "id": "21"
+        }
+    ]
+}

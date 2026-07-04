@@ -1,0 +1,28 @@
+.stats-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  width: 90%;
+  max-width: 500px;
+  margin: 16px auto 0;
+}
+
+.stat-card {
+  background: #f4ede1;
+  border-radius: 8px;
+  padding: 10px 6px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #260101;
+  margin: 0;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  color: #6b5541;
+  margin: 2px 0 0;
+}

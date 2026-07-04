@@ -1,0 +1,210 @@
+/* Style rules for NavBar component of Conard's Woodworks */
+
+.top-nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #401201;
+  margin: 0;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border-radius: 0 0 8px 8px;
+}
+
+.top-nav .logo-image {
+  max-height: 50px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  filter: brightness(0.12) saturate(0.8);
+}
+
+.top-nav .nav-toggle {
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  touch-action: manipulation;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-nav .nav-toggle svg {
+  width: 30px;
+  height: 30px;
+  stroke: #FFF;
+  fill: none;
+  pointer-events: none;
+}
+
+.nav-menu {
+  position: absolute;
+  top: 100%;
+  left: 10px;
+  background-color: #DECDB9;
+  border-radius: 0 0 8px 8px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  z-index: 9;
+  max-width: 300px;
+  width: 55%;
+}
+
+.nav-menu[hidden] {
+  display: none;
+}
+
+.nav-scrim {
+  position: fixed;
+  inset: 0;
+  background: rgba(38, 1, 1, 0.5);
+  z-index: 90;
+}
+
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #260101;
+  font-weight: 500;
+  padding: 5px 10px;
+  transition: background 0.2s;
+  font-size: 1.25rem;
+}
+
+.nav-menu li a:hover {
+  background-color: #FFF;
+  border-radius: 4px;
+}
+
+.logo-text {
+  color: #FFF;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .top-nav .nav-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .top-nav {
+    padding: 10px 20px;
+  }
+
+  .nav-menu {
+    position: static;
+    width: auto;
+    background: transparent;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .nav-menu[hidden] {
+    display: flex !important;
+  }
+
+  .nav-menu ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+  }
+
+  .nav-menu li a {
+    color: #FFF;
+    font-size: 1rem;
+    padding: 6px 10px;
+    border-radius: 4px;
+    text-wrap: nowrap;
+  }
+
+  .nav-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.16);
+  }
+
+  .top-nav .logo-image {
+    filter: brightness(0) invert(1);
+    position: relative;
+    right: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .top-nav {
+    padding: 10px 20px;
+  }
+
+  .top-nav .nav-toggle {
+    display: none;
+  }
+
+  .nav-menu {
+    position: static;
+    width: auto;
+    background: transparent;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .nav-menu[hidden] {
+    display: flex !important;
+  }
+
+  .nav-menu ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+  }
+
+  .nav-menu li a {
+    color: #FFF;
+    font-size: 1rem;
+    padding: 6px 10px;
+    border-radius: 4px;
+    text-wrap: nowrap;
+  }
+
+  .nav-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.16);
+  }
+
+  .top-nav .logo-image {
+    filter: brightness(0) invert(1);
+    position: relative;
+    right: 100%;
+  }
+}

@@ -1,0 +1,96 @@
+/* Style rules for About component of Conard's Woodworks */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 12px 24px;
+  color: #260101;
+  margin: 16px auto 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #401201;
+  width: min(100%, 860px);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+}
+
+.about-paragraph {
+  border: 1px solid #401201;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.35);
+  box-sizing: border-box;
+  text-align: center;
+  padding: 5px;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.about-paragraph p {
+  margin: 0 auto;
+  line-height: 1.6;
+  text-wrap: balance;
+}
+
+.about-paragraph.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-paragraph-one {
+  transition-delay: 0.1s;
+}
+
+.about-paragraph-two {
+  transition-delay: 0.4s;
+}
+
+.about-paragraph-three {
+  transition-delay: 0.7s;
+}
+
+.about-paragraph-four {
+  transition-delay: 1s;
+}
+
+@media (min-width: 768px) {
+  .about-container {
+    padding: 24px 24px 32px;
+  }
+
+  .about-content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 24px;
+    align-items: start;
+  }
+
+  .about-paragraph {
+    padding: 18px 18px;
+    text-indent: 6%;
+  }
+
+  .about-paragraph-one {
+    margin-right: 6%;
+  }
+
+  .about-paragraph-two {
+    margin-left: 6%;
+  }
+
+  .about-paragraph-three {
+    margin-right: 4%;
+    transform: translateY(-8px);
+  }
+
+  .about-paragraph-four {
+    margin-left: 4%;
+    transform: translateY(30px);
+  }
+}
