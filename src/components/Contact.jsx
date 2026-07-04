@@ -73,8 +73,15 @@ const Contact = () => {
         ])
         .then(() => {
             setSuccess(true);
+            setFirstName('');
+            setLastName('');
+            setEmail('');
+            setPhoneNum('');
+            setInterest('');
+            setInterestLabel('');
+            setMessage('');
+            setPrefilled(false);
             evt.target.reset();
-            console.log(formData);
         })
         .catch((error) => {
             console.log('Failed: ', error.text);
