@@ -222,7 +222,7 @@ const Contact = () => {
                     <div className="map">
                         <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98503.07421436363!2d-104.85170123195803!3d39.50949996567448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c91ce239a3d55%3A0xd49aeed43d2e2426!2sParker%2C%20CO!5e0!3m2!1sen!2sus!4v1783113736922!5m2!1sen!2sus" 
-                            width="500" height="300" style={{border: 0}} allowFullScreen="" loading="lazy" referrerPolicy="strict-origin-when-cross-origin">
+                            style={{width: '100%', height: 'auto'}} allowFullScreen="" loading="lazy" referrerPolicy="strict-origin-when-cross-origin">
                         </iframe>
                     </div>
             </div>

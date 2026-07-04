@@ -267,6 +267,17 @@ textarea::placeholder {
 
 iframe {
   border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  iframe {
+    max-width: 100%;
+  }
 }
 
 @keyframes fadeIn {
