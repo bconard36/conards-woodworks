@@ -15,14 +15,14 @@
 }
 
 .stat-value {
-  font-size: 1rem;
+  font-size: 1.33rem;
   font-weight: 600;
   color: #260101;
   margin: 0;
 }
 
 .stat-label {
-  font-size: 0.7rem;
+  font-size: 1.125rem;
   color: #6b5541;
   margin: 2px 0 0;
 }
