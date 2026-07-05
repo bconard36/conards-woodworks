@@ -7,7 +7,7 @@ import '../styles/StatsStrip.css';
 const stats = [
     { value: "30 yrs", label: "experience" },
     { value: "Veteran", label: "owned" },
-    { value: "Custom", label: "orders welcome" },
+    { value: "Custom", label: "orders" },
 ];
 
 const StatsStrip = () => {
