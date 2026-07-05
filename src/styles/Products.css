@@ -32,8 +32,14 @@
 }
 
 .product p {
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   padding: 5px;
+  text-align: center;
+}
+
+.product h3 {
+  font-size: 1.33rem;
+  padding: 2px;
   text-align: center;
 }
 
