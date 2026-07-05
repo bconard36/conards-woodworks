@@ -36,6 +36,7 @@
   margin: 0 auto;
   line-height: 1.6;
   text-wrap: balance;
+  font-size: 1.125rem;
 }
 
 .about-paragraph.is-visible {

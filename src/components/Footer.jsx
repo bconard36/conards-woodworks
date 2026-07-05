@@ -22,7 +22,7 @@ const Footer = () => {
                         <p>Tel: (805) 328-8044</p>
                         <p>Email: conardswoodworks@gmail.com</p>
                         <div className="copyright">
-                            <p>&copy; {new Date().getFullYear()} Copyright. Conard's Woodworks, LLC. | All rights reserved.</p>
+                            <p>&copy; {new Date().getFullYear()} Copyright. | Conard's Woodworks, LLC. | All rights reserved.</p>
                         </div>
                     </div>
                 </div>
