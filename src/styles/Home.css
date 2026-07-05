@@ -15,6 +15,7 @@
   margin-bottom: 5px;
   padding-top: 5px;
   text-align: center;
+  text-wrap: nowrap;
 }
 
 .hero-subtext {
