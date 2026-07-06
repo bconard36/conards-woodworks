@@ -20,10 +20,11 @@
 }
 
 .section-header {
-  font-size: 2rem;
+  font-size: clamp(2.1rem, 3.2vw, 2.75rem);
   font-style: italic;
-  margin-bottom: 5px;
+  margin: 0 0 10px;
   text-align: center;
+  line-height: 1.1;
 }
 
 p {
