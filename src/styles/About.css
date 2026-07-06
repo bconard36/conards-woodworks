@@ -11,6 +11,7 @@
   border-radius: 8px;
   border: 1px solid #401201;
   width: min(100%, 860px);
+  background-color: #f7efe7;
 }
 
 .about-content {
