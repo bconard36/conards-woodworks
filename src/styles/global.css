@@ -7,13 +7,9 @@
   font-family: "Cormorant Garamond", serif;
   min-height: 100vh;
   min-height: 100dvh;
-  background-image: url('../../public/assets/conards-woodworks-saw.svg');
+  background-image: cross-fade(url('../../public/assets/conards-woodworks-background.png'), transparent, 30%);
   background-repeat: repeat;
   background-size: 200px;
-}
-
-svg {
-  opacity: 0.75;
 }
 
 .content {
