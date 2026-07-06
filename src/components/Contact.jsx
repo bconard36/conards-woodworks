@@ -10,7 +10,7 @@ import { useLocation } from 'react-router-dom';
 import '../styles/Contact.css';
 import { sendTemplatedEmails } from '../email/emailService';
 import { contactNotification, contactAutoReply } from '../email/emailTemplates';
-import SawIcon from '/assets/conards-woodwords-background.png';
+import SawIcon from '/assets/conards-woodworks-background.png';
 
 const Contact = () => {
 
