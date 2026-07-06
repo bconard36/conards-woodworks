@@ -7,9 +7,8 @@
   font-family: "Cormorant Garamond", serif;
   min-height: 100vh;
   min-height: 100dvh;
-  background-image: url('../../public/assets/conards-woodworks-background.png');
-  background-repeat: repeat;
-  background-size: 220px;
+  background-image: url('../../public/assets/rustic-wood-background.jpg');
+  background-repeat: no-repeat;
 }
 
 .content {
