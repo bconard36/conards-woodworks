@@ -3,12 +3,16 @@
 
 #root,
 .content {
-  background: #F5EEE8;
+  background-color: #F5EEE8;
   font-family: "Cormorant Garamond", serif;
   min-height: 100vh;
   min-height: 100dvh;
-  background-image: url('../../public/assets/rustic-wood-background.jpg');
+  background-image:
+    linear-gradient(rgba(245, 238, 232, 0.82), rgba(245, 238, 232, 0.82)),
+    url('../../public/assets/rustic-wood-background.jpg');
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 110% auto;
 }
 
 .content {
