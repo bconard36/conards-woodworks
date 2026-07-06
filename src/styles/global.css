@@ -8,7 +8,7 @@
   min-height: 100vh;
   min-height: 100dvh;
   background-image:
-    linear-gradient(rgba(245, 238, 232, 0.82), rgba(245, 238, 232, 0.82)),
+    linear-gradient(rgba(245, 238, 232, 0.9), rgba(245, 238, 232, 0.9)),
     url('../../public/assets/rustic-wood-background.jpg');
   background-repeat: no-repeat;
   background-position: center;
