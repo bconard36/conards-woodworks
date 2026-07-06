@@ -10,7 +10,7 @@ import { useLocation } from 'react-router-dom';
 import '../styles/Contact.css';
 import { sendTemplatedEmails } from '../email/emailService';
 import { contactNotification, contactAutoReply } from '../email/emailTemplates';
-import DarkLogo from '/assets/dark_logo.svg';
+import SawIcon from '../../public/assets/conards-woodworks-background.png';
 
 const Contact = () => {
 
@@ -207,7 +207,7 @@ const Contact = () => {
                                     &times;
                                 </button>
                                 <div className="modal-watermark">
-                                    <img src={DarkLogo} alt="Watermark" />
+                                    <img src={SawIcon} alt="Watermark" />
                                 </div>
                                 <h3 className="modal-title">Message Sent</h3>
                                 <p className="modal-message">
