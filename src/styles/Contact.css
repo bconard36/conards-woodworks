@@ -117,6 +117,13 @@ textarea::placeholder {
   text-align: center;
 }
 
+#other-interest-source {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+  width: 90%;
+  height: 42px;
+}
+
 #interest,
 #interest option {
   padding: 2px 2px 2px 4px;
