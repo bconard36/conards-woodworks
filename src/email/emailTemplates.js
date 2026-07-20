@@ -9,17 +9,18 @@
 
 
 
-export const contactNotification = ({ firstName, lastName, email, phoneNum, interest, interestLabel, message }) => ({
+export const contactNotification = ({ firstName, lastName, email, phoneNum, interest, interestLabel, otherInterest, message }) => ({
     to_email: 'conardswoodworks@gmail.com',
     to_name: 'Jon',
     from_name: `${firstName} ${lastName}`,
     reply_to: email,
     subject: `New ${interest} Inquiry from ${firstName} ${lastName}`,
     message:
-`${firstName} ${lastName}
+`Name: ${firstName} ${lastName}
 Email Address: ${email}
-Phone: ${phoneNum}
-Interest: ${interestLabel}
+Phone Number: ${phoneNum}
+Area of Interest: ${interestLabel}
+Other Area Interest (if applicable): ${otherInterest}
 Message: ${message}`
 });
 
