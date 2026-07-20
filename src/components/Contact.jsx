@@ -65,6 +65,7 @@ const Contact = () => {
             phoneNum,
             interest,
             interestLabel,
+            otherInterest,
             message
         };
 
@@ -80,6 +81,7 @@ const Contact = () => {
             setPhoneNum('');
             setInterest('');
             setInterestLabel('');
+            setOtherInterest('');
             setMessage('');
             setPrefilled(false);
             evt.target.reset();
