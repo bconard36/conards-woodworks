@@ -22,6 +22,7 @@ const Contact = () => {
     const [phoneNum, setPhoneNum] = useState('');
     const [interest, setInterest] = useState('');
     const [interestLabel, setInterestLabel] = useState('');
+    const [otherInterest, setOtherInterest] = useState('');
     const [message, setMessage] = useState('');
     const [success, setSuccess] = useState(false);
     const [prefilled, setPrefilled] = useState(false);
@@ -178,6 +179,20 @@ const Contact = () => {
                                 <option value="Other">Other</option>
                             </select>
                         </div>
+                        {/* Only render the other referral text box if referral is true */}
+                        {interestLabel === "Other" && (
+                            <div className="interest-container">
+                            <label htmlFor="other-interest-source" id="other">What is your area of interest?</label>
+                            <textarea 
+                                id="other-interest-source" 
+                                name="otherInterest" 
+                                rows="1" 
+                                cols="30" 
+                                required
+                                onChange={(evt) => setOtherInterest(evt.target.value)}
+                            />
+                        </div>
+                        )}
                         <div className="message">
                             <label htmlFor="message">Message</label>
                             <textarea 

@@ -54,7 +54,8 @@
 .email,
 .phone-number,
 .interest,
-.message {
+.message,
+.interest-container {
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -69,7 +70,8 @@
 .email label,
 .phone-number label,
 .interest label,
-.message label {
+.message label,
+.interest-container label {
   font-size: 1.1rem;
   font-weight: 400;
 }
@@ -83,6 +85,7 @@
 .email input,
 .phone-number input,
 .interest select,
+.interest-container input,
 .message textarea {
   border-radius: 8px;
   width: 100%;
@@ -98,7 +101,8 @@
 .last-name input,
 .email input,
 .phone-number input,
-.interest select {
+.interest select,
+.interest-container input {
   height: 42px;
 }
 
