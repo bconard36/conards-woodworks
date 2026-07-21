@@ -3,7 +3,7 @@ A React application for my dad's woodworking business - designed and coded from 
 a real-life client, I developed an application that allows customers, vendors, or just curious DIY-ers
 to examine the work of a local, veteran-owned, small business. 
 
-**Live Site:** 
+**Live Site:** https://conards-woodworks.vercel.app/
 
 # Folder List 
 - public: houses all image assets to be served 
