@@ -8,7 +8,7 @@
 }
 
 .stat-card {
-  background: #f4ede1;
+  background: var(--card);
   border-radius: 8px;
   padding: 10px 6px;
   text-align: center;
@@ -17,12 +17,12 @@
 .stat-value {
   font-size: 1.33rem;
   font-weight: 600;
-  color: #260101;
+  color: var(--ink);
   margin: 0;
 }
 
 .stat-label {
   font-size: 1.125rem;
-  color: #6b5541;
+  color: var(--ink-muted);
   margin: 2px 0 0;
 }

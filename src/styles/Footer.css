@@ -1,7 +1,7 @@
 /* Style rules for Footer component of Conard's Woodworks */
 .footer-container {
-  background: #401201;
-  color: #FFF;
+  background-color: var(--wood-bark);
+  color: #fff;
   border-radius: 8px;
 }
 
@@ -20,7 +20,7 @@
   align-items: end;
   justify-content: center;
   min-width: 60%;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .footer-logo-container {
@@ -51,4 +51,35 @@
   font-size: 0.66rem;
   text-align: center;
   padding-right: 80px;
+}
+
+/* Small phones (320px - 366px): keep the contact column from overflowing
+   and let the email drop to its own line instead of breaking mid-address */
+@media (max-width: 366px) {
+  .footer-logo-container {
+    flex: 0 0 auto;
+  }
+
+  .footer-logo {
+    width: 72px;
+    height: auto;
+  }
+
+  .contact-details {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .contact-details p {
+    max-width: 100%;
+    font-size: clamp(0.9rem, 4.6vw, 1.05rem);
+    text-align: right;
+    text-wrap: balance;
+    overflow-wrap: anywhere; /* last resort only; the space after "Email:" breaks first */
+  }
+
+  .copyright p {
+    padding-right: 0;
+    text-align: right;
+  }
 }

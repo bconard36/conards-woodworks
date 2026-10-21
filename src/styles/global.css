@@ -1,15 +1,31 @@
-/* Global Style Rules for Conard's Woodoworks */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+/* Global Style Rules for Conard's Woodworks */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+
+/* Color tokens: change these to tune the whole site's mood in one place */
+:root {
+  --wood-bark: #5c4a3c; /* nav bar: weathered walnut */
+  --wood-driftwood: #6f5d4d; /* hero panel: lighter driftwood */
+  --ink: #3b2c22; /* main text: soft espresso */
+  --ink-muted: #6f5f50; /* secondary text */
+  --parchment: #f5eee8; /* page background */
+  --card: #f4ede1; /* stat cards */
+  --menu: #e6d9c8; /* mobile menu panel */
+  --cream: #f7efe7; /* text on dark surfaces */
+  --sage: #5f725d; /* primary button */
+  --sage-edge: #4e5f4c; /* primary button border */
+  --scrim: rgba(59, 44, 34, 0.45);
+}
 
 #root,
 .content {
-  background-color: #F5EEE8;
+  background-color: var(--parchment);
+  color: var(--ink);
   font-family: "Cormorant Garamond", serif;
   min-height: 100vh;
   min-height: 100dvh;
   background-image:
     linear-gradient(rgba(245, 238, 232, 0.4), rgba(245, 238, 232, 0.4)),
-    url('../../public/assets/rustic-wood-background.jpg');
+    url("../../public/assets/rustic-wood-background.jpg");
   background-repeat: repeat-y;
   background-position: center top;
   background-size: 100% auto;

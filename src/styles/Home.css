@@ -1,6 +1,6 @@
 /* Style rules for Home and Hero components of Conard's Woodworks */
 .hero {
-  background-color: #260101;
+  background-color: rgba(38, 1, 1, 0.8);
   border-radius: 4px;
   padding: 5px;
   margin: 0 auto;

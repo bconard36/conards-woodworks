@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #401201;
+  background-color: var(--wood-bark);
   margin: 0;
   padding: 8px 10px;
   box-sizing: border-box;
@@ -43,7 +43,7 @@
 .top-nav .nav-toggle svg {
   width: 30px;
   height: 30px;
-  stroke: #FFF;
+  stroke: var(--cream);
   fill: none;
   pointer-events: none;
 }
@@ -52,7 +52,7 @@
   position: absolute;
   top: 100%;
   left: 10px;
-  background-color: #DECDB9;
+  background-color: var(--menu);
   border-radius: 0 0 8px 8px;
   padding: 10px 15px;
   display: flex;
@@ -69,7 +69,7 @@
 .nav-scrim {
   position: fixed;
   inset: 0;
-  background: rgba(38, 1, 1, 0.5);
+  background: var(--scrim);
   z-index: 90;
 }
 
@@ -85,7 +85,7 @@
 
 .nav-menu li a {
   text-decoration: none;
-  color: #260101;
+  color: var(--ink);
   font-weight: 500;
   padding: 5px 10px;
   transition: background 0.2s;
@@ -93,18 +93,18 @@
 }
 
 .nav-menu li a:hover {
-  background-color: #FFF;
+  background-color: #fbf6ee;
   border-radius: 4px;
 }
 
 .logo-text {
-  color: #FFF;
+  color: var(--cream);
   font-size: 1.25rem;
   text-align: center;
 }
 
 .no-underline {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -141,7 +141,7 @@
   }
 
   .nav-menu li a {
-    color: #FFF;
+    color: var(--cream);
     font-size: 1rem;
     padding: 6px 10px;
     border-radius: 4px;
@@ -191,7 +191,7 @@
   }
 
   .nav-menu li a {
-    color: #FFF;
+    color: var(--cream);
     font-size: 1rem;
     padding: 6px 10px;
     border-radius: 4px;

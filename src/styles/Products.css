@@ -4,7 +4,7 @@
   grid-template-columns: 1fr;
   gap: 14px;
   width: min(100%, 1120px);
-  margin: 6px auto 0;
+  margin: 0 auto;
   padding: 0 10px 12px;
   box-sizing: border-box;
 }
@@ -43,8 +43,8 @@
   text-align: center;
 }
 
-div:has(.product) {
-  padding: 10px 0;
+div:has(> .product):not(.product-container) {
+  padding: 0 0 10px;
 }
 
 .product-image {
@@ -87,7 +87,9 @@ div:has(.product) {
   cursor: pointer;
   background-color: transparent;
   color: #260101;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .category-pill:hover {
